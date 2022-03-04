@@ -25,4 +25,12 @@ function moveDown() {
 }
 
 function moveSequence() {
+    const duration = 300
+    monster
+    .animate({left:450},duration)
+    .animate({right:50},duration)
+    .fadeOut()
+    .animate({top:450},duration)
+    .animate({top:50},duration)
+    .fadeIn()
 }
